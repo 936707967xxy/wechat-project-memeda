@@ -89,6 +89,15 @@
             </view>
             
             <view class='project-specifications-tyle'>
+              <text>颜色</text>
+              <view class='product-div-css-font'>
+                <view class='product-div-css'>
+                  <text>红色</text>
+                </view>
+              </view>
+            </view>
+
+            <view class='project-specifications-tyle'>
               <text>规格</text>
               <view class='product-div-css-font'>
                 <view class='product-div-css'>
