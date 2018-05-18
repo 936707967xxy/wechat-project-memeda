@@ -12,7 +12,8 @@
       <view class="{{selected1?'show':'hidden'}}">
          <view class='body-all'>
           <view class='product-details-img'>
-            <image src='{{productImage}}' class='product-img'/>
+          1
+            <!--<image src='{{productImage}}' class='product-img'/>-->
           </view>
         
           <view class='product-title'>
@@ -75,9 +76,31 @@
               </view>
             </view>
           </view>
+          
+          <view class='null'></view>
+          <view class='product-Specifications'>
+            <view class='project-specifications-tyle'>
+              <text>规格</text>
+              <view class='product-div-css-font'>
+                <view class='product-div-css'>
+                  <text>200ml</text>
+                </view>
+              </view>
+            </view>
+            
+            <view class='project-specifications-tyle'>
+              <text>规格</text>
+              <view class='product-div-css-font'>
+                <view class='product-div-css'>
+                  <text>200ml</text>
+                </view>
+              </view>
+            </view>
+          </view>
         </view>
       </view>
 
+    <!--详情-->
     <view class="{{selected2?'show':'hidden'}}">for activity</view>
     <view class="{{selected3?'show':'hidden'}}">评价</view>
   </view>
