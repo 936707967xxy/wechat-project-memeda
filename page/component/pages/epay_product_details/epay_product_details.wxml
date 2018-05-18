@@ -1,0 +1,84 @@
+<import src="../../../common/head.wxml" />
+<import src="../../../common/foot.wxml" />
+
+<view class="container">
+  <view class="body">
+      <view class="nav bc_white">
+        <view class="{{selected1?'red':'default'}}" bindtap="selected1">商品</view>
+        <view class="{{selected2?'red':'default'}}" bindtap="selected2">详情</view>
+        <view class="{{selected3?'red':'default'}}" bindtap="selected3">评价</view>
+      </view>
+
+      <view class="{{selected1?'show':'hidden'}}">
+         <view class='body-all'>
+          <view class='product-details-img'>
+            <image src='{{productImage}}' class='product-img'/>
+          </view>
+        
+          <view class='product-title'>
+            <view class='product-title-font'>
+                <view class='company-power'>
+                  <text class='company-power-title'>自营</text>
+                </view>
+                <view class='product-title-title'>
+                  <text class='product-title-font-p'>{{productTitle}}</text>
+                </view>
+            </view>
+
+            <view class='product-title-price'>
+              <view class='product-title-price-title'>
+                  <view class='product-price-type'>
+                    <view class='product-price-type-type'></view>
+                       <text>￥</text>
+                    </view>
+                    <view class='product-prive-num'>
+                      <text class='product-price-num-type'>8000.29</text>
+                    </view>
+                  </view>
+                  <view class='product-title-price-time'>
+                    <view class='company-Promise-1'>
+                      <view class='company-Promise-3'>
+                        <view class='company-Promise-5'>
+                          <view class='cpmpany-title-style'>
+                            <icon type="success" size="10"></icon>
+                            <text class='icon-small-small'>自家发货</text>
+                          </view>
+                        </view>
+                        <view class='company-Promise-6'>
+                          <view class='cpmpany-title-style'>
+                            <icon type="success" size="10"></icon>
+                            <text class='icon-small-small'>货到付款</text>
+                          </view>
+                        </view>
+                      </view>
+                      <view class='company-Promise-4'>
+                        <view class='company-Promise-5'>
+                          <view class='cpmpany-title-style'>
+                            <icon type="success" size="10"></icon>
+                            <text class='icon-small-small'>自提</text>
+                          </view>
+                        </view>
+                        <view class='company-Promise-6'>
+                          <view class='cpmpany-title-style'>
+                            <icon type="success" size="10"></icon>
+                            <text class='icon-small-small'>全天配</text>
+                          </view>
+                        </view>
+                      </view>
+                  </view>
+                  <view class='company-Promise-2'>
+                    <view class='cpmpany-title-style'>
+                      <icon type="success" size="10"></icon>
+                      <text class='icon-small-small'>支持七天无理由退换</text>
+                    </view>
+                  </view>
+              </view>
+            </view>
+          </view>
+        </view>
+      </view>
+
+    <view class="{{selected2?'show':'hidden'}}">for activity</view>
+    <view class="{{selected3?'show':'hidden'}}">评价</view>
+  </view>
+</view>

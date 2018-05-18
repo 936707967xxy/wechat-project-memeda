@@ -1,0 +1,37 @@
+<import src="../../../common/head.wxml" />
+<import src="../../../common/foot.wxml" />
+
+<view class="container">
+<form bindsubmit="formSubmit">
+  <view class="page-body">
+    <view class="page-section  swiper-home">
+         <image class="image"src="{{imageLoginBg}}"></image>
+    </view> 
+
+    <view class="page-section page-section-spacing2 swiper-home">
+      <view class="page-section-login">
+           <view class="weui-cells weui-cells_after-title">
+              <view class="weui-cell weui-cell_input">
+                 登录名称：<input class="weui-input" auto-focus placeholder="请输入用户名" name="userName"/> 
+              </view>
+           </view>
+      </view>
+
+      <view class="page-section-login">
+            <view class="weui-cells weui-cells_after-title">
+              <view class="weui-cell weui-cell_input">
+                用户密码：<input class="weui-input" password type="text" placeholder="请输入密码" name="userPwd" />
+              </view>
+          </view>
+      </view>
+
+      <view class="btn-area">
+        <button type="primary" formType="submit">Submit</button>
+        <button formType="reset">Reset</button>
+      </view>
+
+    </view>
+  </view>
+
+  </form>
+</view>

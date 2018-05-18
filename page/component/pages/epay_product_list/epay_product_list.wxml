@@ -1,0 +1,161 @@
+<import src="../../../common/head.wxml" />
+<import src="../../../common/foot.wxml" />
+
+<view class="container">
+  <view class='solr'>
+  搜索
+  </view>
+
+<!-- 页面至少三列填满-->
+<view class='body-all'>
+ <view class='body-product-list'>
+    <!--产品模块开始-->
+    <view class='body-product-details-left' data-hi="productDetailsTemp" bindtap="productDetails">
+      <view class='product-img-style'>
+       <image src='{{imageFirst_1}}' class='product-img'/>
+      </view>
+      <view class='product-context'>
+       <view class='product-title'>
+        <text>清风扬产品清风扬产品清</text>
+       </view>
+       <view class='product-price'>
+        <text>￥</text><text>200</text>
+       </view>
+       <view class='product-scan-count'>
+        <view class='product-scan-title'>
+         <view class='product-scan-01'>
+           自营
+         </view> 
+        </view>
+        <view class='product-scan-love'>
+         <view class='product-bbs-left'>
+            <text>100000条评论</text>
+         </view>
+         <view class='product-bbs-right'>
+          <text class='product-bbs-title'>100%好评</text>
+         </view>
+        </view>
+       </view>
+      </view>
+    </view>
+   <!--产品模块结束-->
+
+    <view class='body-product-details-left'>
+        <view class='product-img-style'>
+        <image src='{{imageFirst_1}}' class='product-img'/>
+        </view>
+      <view class='product-context'>
+        <view class='product-title'>
+          <text>清风扬产品清风扬产品清</text>
+        </view>
+        <view class='product-price'>
+          <text>￥</text><text>200</text>
+        </view>
+        <view class='product-scan-count'>
+          <view class='product-scan-title'>
+          <view class='product-scan-01'>
+           自营
+          </view> 
+        </view>
+        <view class='product-scan-love'>
+          <view class='product-bbs-left'>
+            <text>100000条评论</text>
+          </view>
+          <view class='product-bbs-right'>
+            <text class='product-bbs-title'>100%好评</text>
+          </view>
+        </view>
+       </view>
+      </view>
+    </view>
+
+    <view class='body-product-details-left'>
+        <view class='product-img-style'>
+          <image src='{{imageFirst_1}}' class='product-img'/>
+        </view>
+      <view class='product-context'>
+        <view class='product-title'>
+          <text>清风扬产品清风扬产品清</text>
+        </view>
+        <view class='product-price'>
+          <text>￥</text><text>200</text>
+        </view>
+        <view class='product-scan-count'>
+          <view class='product-scan-title'>
+          <view class='product-scan-01'>
+           自营
+          </view> 
+        </view>
+        <view class='product-scan-love'>
+          <view class='product-bbs-left'>
+            <text>100000条评论</text>
+          </view>
+          <view class='product-bbs-right'>
+            <text class='product-bbs-title'>100%好评</text>
+          </view>
+        </view>
+       </view>
+      </view>
+    </view>
+
+    <view class='body-product-details-left'>
+        <view class='product-img-style'>
+          <image src='{{imageFirst_1}}' class='product-img'/>
+        </view>
+      <view class='product-context'>
+        <view class='product-title'>
+          <text>清风扬产品清风扬产品清</text>
+        </view>
+        <view class='product-price'>
+          <text>￥</text><text>200</text>
+        </view>
+        <view class='product-scan-count'>
+          <view class='product-scan-title'>
+          <view class='product-scan-01'>
+           自营
+          </view> 
+        </view>
+        <view class='product-scan-love'>
+          <view class='product-bbs-left'>
+            <text>100000条评论</text>
+          </view>
+          <view class='product-bbs-right'>
+            <text class='product-bbs-title'>100%好评</text>
+          </view>
+        </view>
+       </view>
+      </view>
+    </view>
+
+    <view class='body-product-details-left'>
+        <view class='product-img-style'>
+          <image src='{{imageFirst_1}}' class='product-img'/>
+        </view>
+      <view class='product-context'>
+        <view class='product-title'>
+          <text>清风扬产品清风扬产品清</text>
+        </view>
+        <view class='product-price'>
+          <text>￥</text><text>200</text>
+        </view>
+        <view class='product-scan-count'>
+          <view class='product-scan-title'>
+          <view class='product-scan-01'>
+           自营
+          </view> 
+        </view>
+        <view class='product-scan-love'>
+          <view class='product-bbs-left'>
+            <text>100000条评论</text>
+          </view>
+          <view class='product-bbs-right'>
+            <text class='product-bbs-title'>100%好评</text>
+          </view>
+        </view>
+       </view>
+      </view>
+    </view>
+
+  </view>
+</view>
+</view>

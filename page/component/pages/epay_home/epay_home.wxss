@@ -1,0 +1,90 @@
+@import "../../../common/lib/weui.wxss";
+
+button{
+  margin-bottom: 30rpx;
+}
+button:last-child{
+  margin-bottom: 0;
+}
+.page-section-title{
+  padding: 0;
+}
+.page-section-spacing2 {
+box-sizing:border-box;
+padding:-1 80rpx;
+}
+
+.swiper-item{
+  display: block;
+  height: 150px;
+}
+.page-section-title{
+  margin-top: 60rpx;
+  position: relative;
+}
+.info{
+  position: absolute;
+  right: 0;
+  color: #353535;
+  font-size: 30rpx;
+}
+.page-foot{
+  margin-top: 50rpx;
+}
+
+.slide-image{
+  width:100%;
+  height:100%;
+  display:inline-block;
+  overflow:hidden;
+}
+.image{
+  width:100%;
+  height:100%;
+  display:inline-block;
+  overflow:hidden;
+}
+.swiper-home {
+  display:block;
+  height:215px;
+}
+
+.flex-wrp{
+  margin-top: 30rpx;
+  display:flex;
+}
+.flex-item{
+  width: 50%;
+  height: 300rpx;
+  font-size: 26rpx;
+}
+.flex-item-V{
+  margin: 0 auto;
+  width: 300rpx;
+  height: 200rpx;
+}
+.demo-text-11{
+  position:relative;
+  align-items:center;
+  justify-content:center;
+  background-color:#D09494;
+  color:#FFFFFF;
+  font-size:36rpx;
+}
+.demo-text-22{
+  position: relative;
+  align-items: center;
+  justify-content: center;
+  background-color: #2782D7;
+  color: #FFFFFF;
+  font-size: 36rpx;
+}
+
+.demo-text-33{
+  position: relative;
+  align-items: center;
+  justify-content: center;
+  background-color: #E66A6A;
+  color: #353535;
+  font-size: 36rpx;
+}

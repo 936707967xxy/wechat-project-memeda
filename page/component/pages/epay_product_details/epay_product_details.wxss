@@ -1,0 +1,141 @@
+.nav{width:100%;height:100rpx;display:flex;flex-direction:row;}
+.default{
+  line-height:100rpx;
+  text-align:center;
+  flex:1;
+  border-right:1px dashed gainsboro;
+  border-bottom:1px solid gainsboro;
+  color:#000;
+  font-weight:bold;
+  font-size:28rpx;
+  }
+.red{
+  line-height:100rpx;
+  text-align:center;
+  color:#fc5558;
+  flex:1;
+  border-right:1px dashed gainsboro;
+  border-bottom:2px solid gainsboro;
+  border-bottom-color: #8a8982;
+  font-weight:bold;
+  font-size:28rpx;
+  }
+.show{
+  display:block;
+}
+.hidden{
+  display:none;
+  text-align:center;
+  line-height:200px;
+  }
+
+.body-all{
+  width: 100%;
+  background-color:#eeecf1;
+}
+.product-details-img{
+  width: 100%;
+  height: 500rpx;
+}
+.product-img{
+  width: 100%;
+  max-height: 500rpx;
+}
+.product-title{
+  width: 100%;
+  height: 200rpx;
+  margin-top: 2rpx;
+}
+.product-title-font{
+  width: 100%;
+  height: 100rpx;
+}
+.product-title-price{
+  width: 100%;
+  height: 100rpx;
+}
+.product-title-price-title{
+  width: 100%;
+  height: 60rpx;
+}
+.product-title-price-time{
+  width: 100%;
+  height: 40rpx;
+}
+.company-power{
+  width: 60rpx;
+  height: 32rpx;
+  background-color: red;
+  font-size: 22rpx;
+  display:flex;
+  color: 	#FFFFFF;
+  margin-left: 5rpx;
+}
+.company-power-title{
+  margin-left: 8rpx;
+}
+.product-title-title{
+  font-size: 28rpx;
+  margin-left: 5rpx;
+  text-align: left;
+  display: inline-block;
+}
+.product-title-font-p{
+ text-align: left;
+ display: inline-block;
+ font-weight: bold;
+}
+.product-price-type{
+  float: left;
+  font-size: 27rpx;
+  color: red;
+  width: 4%;
+  height: 60rpx;
+}
+.product-prive-num{
+  color: red;
+  font-weight: bold;
+  width: 95%;
+  float: right;
+  height: 60rpx;
+}
+.product-price-num-type{
+  text-align: left;
+  float:left;
+  padding-top: 10rpx;
+}
+.product-price-type-type{
+  height: 15rpx;
+}
+.company-Promise-1{
+  width: 70%;
+  float: left;
+}
+.company-Promise-2{
+  width: 30%;
+  float: right;
+}
+.company-Promise-3{
+  width: 50%;
+  float: left;
+}
+.company-Promise-4{
+  width: 50%;
+  float: right;
+}
+.company-Promise-5{
+  width: 50%;
+  float: left;
+}
+.company-Promise-6{
+  width: 50%;
+  float: right;
+}
+.icon-small-small{
+ font-size: 20rpx;
+ line-height:2em;
+ color: #999;
+}
+.cpmpany-title-style{
+  margin-left: 15rpx;
+}
