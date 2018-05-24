@@ -64,7 +64,8 @@
     "page/component/pages/epay_home/epay_home",
     "page/component/pages/epay_login/epay_login",
     "page/component/pages/epay_product_list/epay_product_list",
-    "page/component/pages/epay_product_details/epay_product_details"
+    "page/component/pages/epay_product_details/epay_product_details",
+    "page/component/pages/epay_product_cart/epay_product_cart"
   ],
   "window": {
     "navigationBarTextStyle": "black",
@@ -83,6 +84,12 @@
         "iconPath": "image/wechat.png",
         "selectedIconPath": "image/wechatHL.png",
         "text": "首页"
+      },
+      {
+        "pagePath": "page/component/pages/epay_product_cart/epay_product_cart",
+        "iconPath": "image/icon_API.png",
+        "selectedIconPath": "image/icon_API_HL.png",
+        "text": "购物车"
       },
       {
         "pagePath": "page/API/index",

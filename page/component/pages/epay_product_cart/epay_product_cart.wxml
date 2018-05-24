@@ -1,0 +1,39 @@
+
+<import src="../../../common/head.wxml" />
+<import src="../../../common/foot.wxml" />
+
+<view class="container">
+  <view class='cart-list'>
+   <view class='cart-list-left'>
+     20
+   </view>
+   <view class='cart-list-img_1'>
+     <view class='cart-list-img'>
+       <view class='cart-list-img_img'>
+         <image src='{{imageFirst_1}}' class='product-imgage'></image>
+       </view>
+      </view>
+
+      <view class='cart-list-img-right'>
+        <view class='product-cart-title-div'>
+         <text class='product-title-font-p'>{{productTitle}}</text>
+        </view>
+        <view class='product-cart-title-type'>
+          <text class='product-type-1'>{{productType}}</text>
+        </view>
+        <view class='product-cart-title-price'>
+         <view class='product-price-cart-x'>
+           <text class='product-price-num-x'>￥8666.23</text>
+         </view>
+         <view class='product-price-cart-y'>
+           <view class='product-left'>
+                <view class='product-div-button' bindtap='evic'><text class='product-div-num1'>-</text></view>
+                  <input class='product-div-num-text' type="text" placeholder="数量" value='{{num}}' bindblur='evblur' />
+                <view class='product-div-button' bindtap='evad'><text class='product-div-num1'>+</text></view>
+          </view>
+         </view>
+        </view>
+      </view>
+   </view>
+  </view>
+</view>

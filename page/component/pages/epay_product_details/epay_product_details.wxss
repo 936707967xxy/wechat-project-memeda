@@ -177,18 +177,18 @@
 /****************数量加减**************************/
 .product-div-button{
   width: 60rpx;
-  height: 60rpx;
+  height: 80rpx;
   float: left;
   text-align: center;
-  background-color: red;
+  border:2rpx solid #959799;
 }
 .product-div-num-text{
   width: 90rpx;
   height: 60rpx;
   float: left;
   text-align: center;
-  background-color:rebeccapurple;
   font-size: 24rpx;
+  border:2rpx solid #959799;
 }
 .product-div-num1{
   font-size: 50rpx;
@@ -196,13 +196,15 @@
 .product-left{
   float: right;
   margin-right: 3%;
+  margin-top:4%;
 }
-/******************************************************/
+/**************底部悬浮****************************************/
 .buy-css{
   height: 150rpx;
   position: fixed;
   width: 100%;
-  bottom:-44rpx; 
+  bottom:-4%;
+  z-index:999;
 }
 .buy-add-card{
   height: 100rpx;
@@ -211,6 +213,7 @@
   text-align: center;
   float: left;
   color:#FFFFFF;
+  padding-top:3%;
 }
 .buy-buy-buy{
   height: 100rpx;
@@ -219,7 +222,8 @@
   text-align: center;
   float: right;
   color:#FFFFFF;
+  padding-top:3%;
 }
-.buy-text{
-  padding-top: 20rpx;
+.container{
+  min-height: 100%;
 }

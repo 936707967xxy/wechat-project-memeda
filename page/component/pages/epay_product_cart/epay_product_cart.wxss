@@ -1,0 +1,127 @@
+.container{
+  min-height: 100%;
+  background-color:#eeecf1;
+}
+.cart-list{
+  width: 100%;
+  height: 278rpx;
+  background-color: rebeccapurple;
+}
+.cart-list-left{
+  width: 8%;
+  height: 100%;
+  background-color: royalblue;
+  float: left;
+}
+.cart-list-img_1{
+  width: 92%;
+  height: 100%;
+  float: right;
+}
+.cart-list-img{
+  width: 32%;
+  height: 100%;
+  background-color:#c39de9;
+  float: left;
+}
+.cart-list-img_img{
+  width: 90%;
+  height: 90%;
+  background-color:#9ddce9;
+  border:2rpx solid #b6c2c4;
+  margin-bottom: 5%;
+  margin-top: 5%;
+  margin-left: 4%;
+  margin-right: 5%;
+}
+.product-imgage{
+  width: 100%;
+  max-height: 100%;
+  
+}
+.cart-list-img-right{
+  width: 68%;
+  height: 100%;
+  background-color:#24c8e3;
+  float: right;
+}
+.product-cart-title-div{
+  width: 100%;
+  height: 40%;
+  background-color:#24e3a2;
+}
+.product-cart-title-type{
+  width: 100%;
+  height: 25%;
+  background-color:#6e896e;
+}
+.product-cart-title-price{
+  width: 100%;
+  height: 35%;
+  background-color:#76ba48;
+}
+.product-title-font-p{
+ text-align: left;
+ display: inline-block;
+ font-weight: bold;
+ font-size: 26rpx;
+ margin-top: 4%;
+ overflow: hidden;
+ text-overflow: ellipsis;
+ margin-left:2%;
+}
+.product-type-1{
+  text-align: left;
+ display: inline-block;
+ font-weight:lighter;
+ font-size: 24rpx;
+ overflow: hidden;
+ white-space: nowrap;
+ text-overflow:ellipsis;
+ margin-top: 4%;
+ margin-left:2%;
+}
+.product-price-cart-x{
+  width: 50%;
+  height: 85%;
+  background-color: #59360d;
+  float: left;
+}
+.product-price-cart-y{
+  width: 50%;
+  height: 85%;
+  background-color: #ba7626;
+  float: right;
+}
+.product-price-num-x{
+  margin-top: 15%;
+  margin-left:4%;
+  font-size: 28rpx;
+  font-weight: bold;
+  display: inline-block;
+  color: red;
+}
+
+
+.product-left{
+  float: right;
+  margin-right: 3%;
+}
+.product-div-button{
+  width: 60rpx;
+  height: 60rpx;
+  float: left;
+  text-align: center;
+  border:2rpx solid #959799;
+}
+.product-div-num1{
+  font-size: 50rpx;
+}
+.product-div-num-text{
+  width: 90rpx;
+  height: 60rpx;
+  float: left;
+  text-align: center;
+  font-size: 24rpx;
+  border:2rpx solid #959799;
+}

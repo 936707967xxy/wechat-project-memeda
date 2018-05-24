@@ -90,5 +90,11 @@ Page({
     } else {
       this.setData({ num: cval })
     };
+  },
+  buyAddCard: function (event) {
+    console.log(event.currentTarget);
+    wx.navigateTo({
+      url: '/page/component/pages/epay_product_cart/epay_product_cart'
+    })
   }
 })
