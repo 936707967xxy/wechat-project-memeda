@@ -145,7 +145,7 @@
   background-color:#FFFFFF;
 }
 .product-Specifications{
- height: 400rpx;
+ min-height: 500rpx;
  margin-top: 5rpx;
  font-size: 27rpx;
  line-height:2em;
@@ -174,3 +174,52 @@
 }
 
 
+/****************数量加减**************************/
+.product-div-button{
+  width: 60rpx;
+  height: 60rpx;
+  float: left;
+  text-align: center;
+  background-color: red;
+}
+.product-div-num-text{
+  width: 90rpx;
+  height: 60rpx;
+  float: left;
+  text-align: center;
+  background-color:rebeccapurple;
+  font-size: 24rpx;
+}
+.product-div-num1{
+  font-size: 50rpx;
+}
+.product-left{
+  float: right;
+  margin-right: 3%;
+}
+/******************************************************/
+.buy-css{
+  height: 150rpx;
+  position: fixed;
+  width: 100%;
+  bottom:-44rpx; 
+}
+.buy-add-card{
+  height: 100rpx;
+  width: 50%;
+  background-color: #63be68;
+  text-align: center;
+  float: left;
+  color:#FFFFFF;
+}
+.buy-buy-buy{
+  height: 100rpx;
+  width: 50%;
+  background-color: red;
+  text-align: center;
+  float: right;
+  color:#FFFFFF;
+}
+.buy-text{
+  padding-top: 20rpx;
+}

@@ -12,7 +12,6 @@
       <view class="{{selected1?'show':'hidden'}}">
          <view class='body-all'>
           <view class='product-details-img'>
-          1
             <!--<image src='{{productImage}}' class='product-img'/>-->
           </view>
         
@@ -98,19 +97,31 @@
             </view>
 
             <view class='project-specifications-tyle'>
-              <text>规格</text>
+                <text>数量</text>
               <view class='product-div-css-font'>
-                <view class='product-div-css'>
-                  <text>200ml</text>
+                <view class='product-left'>
+                 <view class='product-div-button' bindtap='evic'><text class='product-div-num1'>-</text></view>
+                 <input class='product-div-num-text' type="text" placeholder="数量" value='{{num}}' bindblur='evblur' />
+                 <view class='product-div-button' bindtap='evad'><text class='product-div-num1'>+</text></view>
                 </view>
               </view>
             </view>
           </view>
         </view>
+        
       </view>
 
     <!--详情-->
     <view class="{{selected2?'show':'hidden'}}">for activity</view>
     <view class="{{selected3?'show':'hidden'}}">评价</view>
   </view>
+
+  <view class='buy-css'>
+              <view class='buy-add-card'>
+               <text class='buy-text'>加入购物车</text> 
+              </view>
+              <view class='buy-buy-buy'>
+               <text class='buy-text'>立即购买</text> 
+              </view>
+        </view>
 </view>
