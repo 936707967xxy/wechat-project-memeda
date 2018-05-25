@@ -2,7 +2,7 @@
 <import src="../../../common/foot.wxml" />
 
 <view class="container">
-  <view class="page-body">
+  <view class="">
     <view class="page-section page-section-spacing2 swiper-home">
       <swiper indicator-dots="{{indicatorDots}}" class='swiper-home'
         autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}">
@@ -34,5 +34,4 @@
       </view>
     </view>
   </view>
-  <template is="foot" />
 </view>

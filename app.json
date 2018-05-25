@@ -65,7 +65,8 @@
     "page/component/pages/epay_login/epay_login",
     "page/component/pages/epay_product_list/epay_product_list",
     "page/component/pages/epay_product_details/epay_product_details",
-    "page/component/pages/epay_product_cart/epay_product_cart"
+    "page/component/pages/epay_product_cart/epay_product_cart",
+    "page/component/pages/epay_product_submit/epay_product_submit"
   ],
   "window": {
     "navigationBarTextStyle": "black",

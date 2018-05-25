@@ -3,37 +3,55 @@
 <import src="../../../common/foot.wxml" />
 
 <view class="container">
-  <view class='cart-list'>
+  <view class='cart-list' wx:for="{{carts}}">
    <view class='cart-list-left'>
-     20
+      <image class="item-select" bindtap="switchSelect" data-index="{{index}}" data-id="{{index}}" src="{{item.isSelect?   './image/allselect.png':'./image/siginselect.png'}}" />
    </view>
    <view class='cart-list-img_1'>
      <view class='cart-list-img'>
        <view class='cart-list-img_img'>
-         <image src='{{imageFirst_1}}' class='product-imgage'></image>
+         <image src='{{item.pic}}' class='product-imgage'></image>
        </view>
       </view>
 
       <view class='cart-list-img-right'>
         <view class='product-cart-title-div'>
-         <text class='product-title-font-p'>{{productTitle}}</text>
+         <text class='product-title-font-p'>{{item.name}}</text>
         </view>
         <view class='product-cart-title-type'>
-          <text class='product-type-1'>{{productType}}</text>
+          <text class='product-type-1'>{{item.productType}}</text>
         </view>
         <view class='product-cart-title-price'>
          <view class='product-price-cart-x'>
-           <text class='product-price-num-x'>￥8666.23</text>
+           <text class='product-price-num-x'>￥{{item.price}}</text>
          </view>
          <view class='product-price-cart-y'>
            <view class='product-left'>
                 <view class='product-div-button' bindtap='evic'><text class='product-div-num1'>-</text></view>
-                  <input class='product-div-num-text' type="text" placeholder="数量" value='{{num}}' bindblur='evblur' />
+                  <input class='product-div-num-text' type="text" placeholder="数量" value='{{item.num}}' bindblur='evblur' />
                 <view class='product-div-button' bindtap='evad'><text class='product-div-num1'>+</text></view>
           </view>
          </view>
         </view>
       </view>
    </view>
+  </view>
+</view>
+
+<view class='cart-list'>
+</view>
+
+<view class='buy-css'>
+  <view class='buy-add-card' bindtap="buyAddCard">
+    <view class="row">
+      <image class="item-allselect" bindtap="allSelect" src="{{isAllSelect?   './image/allselect.png':'./image/siginselect.png'}}" />
+      <text class="small_text">全选</text>
+      <text class='cart-title-font'>合计:￥ </text>
+      <text class="price">{{totalMoney}}</text>
+    </view>
+  </view>
+  <!--<view class='buy-buy-buy'bindtap="toBuy" formType="submit">-->
+  <view class='buy-buy-buy'bindtap="toBuy" formType="submit">
+    <text >去结算</text> 
   </view>
 </view>

@@ -1,0 +1,60 @@
+<import src="../../../common/head.wxml" />
+<import src="../../../common/foot.wxml" />
+
+<view class="container">
+ <view class='cart-list'>
+   <view class='submit-customer'>
+     <view class='submit-customer-text1'>
+       <text>王大锤</text>
+       <text class='title'>13631238895</text>
+     </view>
+   </view>
+   <view class='submit-address'>
+     <view class='address-img'>
+       <image src='../../../../image/location.png' class='address-ico'></image>
+     </view>
+     <view class='address-title'>{{address}}</view>
+   </view>
+ </view>
+
+  <!--产品信息-->
+  <view class='cart-list-details'>
+    <view class='cart-list-left'>
+      
+   </view>
+   <view class='cart-list-img_1'>
+     <view class='cart-list-img'>
+       <view class='cart-list-img_img'>
+         <image src='{{pic}}' class='product-imgage'></image>
+       </view>
+      </view>
+
+      <view class='cart-list-img-right'>
+        <view class='product-cart-title-div'>
+         <text class='product-title-font-p'>{{name}}</text>
+        </view>
+        <view class='product-cart-title-type'>
+          <text class='product-type-1'>{{productType}}</text>
+        </view>
+        <view class='product-cart-title-price'>
+         <view class='product-price-cart-x'>
+           <text class='product-price-num-x'>￥{{price}}</text>
+         </view>
+        </view>
+      </view>
+   </view>
+  </view>
+</view>
+
+
+
+<!--底部悬浮-->
+<view class='buy-css'>
+  <view class='buy-add-card' >
+    <text class='cart-title-font'>实际付款:￥8569 </text>
+  </view>
+ 
+  <view class='buy-buy-buy'>
+    <text >提 交</text> 
+  </view>
+</view>
